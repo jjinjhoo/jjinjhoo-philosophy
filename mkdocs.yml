@@ -29,21 +29,26 @@ nav:
   - Home: index.md
   - 한국어:
     - 서문: ko/01_prologue.md
-    - 1부: 
+    - 1부 주인의 길 ― 생사진주의 근본: 
       - 1장 생사진주란 무엇인가: ko/11_what_is_ssjj.md
       - 2장 길 위의 인간: ko/12_human_on_path.md
-    - 2부:
-      - 깨어남: ko/21_awakening.md
-      - 더 깊은 깨어남(템플릿): ko/22_deeper_awaken.md
-    - 3부:
-      - 선택과 실행(템플릿): ko/31_choice_action.md
-      - 실행의 힘(템플릿): ko/32_power_of_action.md
-    - 4부:
-      - 돈=에너지: ko/41_money_energy.md
-      - 풍요의 흐름(템플릿): ko/42_flow_of_abundance.md
-    - 5부:
-      - 나눔과 순환(템플릿): ko/51_sharing_circulation.md
-      - 공동체적 주체성(템플릿): ko/52_community_subject.md
+      - 3장 삷과 죽음의 통합: ko/13_life_and_death.md
+    - 2부 깨어남 ― 의식의 전환:
+      - 4장 깨어남이란 무엇인가: ko/21_awakening.md
+      - 5장 하나의 전체: ko/22_oneness.md
+      - 6장 길을 묻는 자에서 길을 여는자로: ko/23_road_opener.md
+    - 3부 선택과 실행 ― 창조자의 법칙:
+      - 7장 인생공식 결과 = 선택 × 실행: ko/31_life_equation.md
+      - 8장 실패와 성장: ko/32_growth.md
+      - 9장 나의 길 : ko/33_my_way.md
+    - 4부 돈과 풍요 ― 에너지의 흐름:
+      - 10장 돈의 본질 : ko/41_essense_of_money_.md
+      - 11장 돈 = 에너지: ko/42_money_energy.md
+      - 12장 풍요의 주인: ko/43_master_of_abundance.md
+    - 5부 나눔과 순환 ― 전체를 위한 삶:
+      - 13장 하나를 위해 한다: ko/51_act_for_one.md
+      - 14장 나눔은 순환이다: ko/52_community_subject.md
+      - 15장 동반자와 안내자: ko/53_partners.md
     - 결론: ko/91_conclusion.md
     - 부록: ko/92_appendix.md
   - English:
