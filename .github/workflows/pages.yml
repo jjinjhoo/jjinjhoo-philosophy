@@ -1,0 +1,33 @@
+name: Build & Deploy (Pages)
+on:
+  push:
+    branches: [ main ]
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install mkdocs-material
+      # PDF까지 필요하면 아래 두 줄 추가(환경 의존성 이슈 있으면 잠시 생략해도 됨)
+      # - run: sudo apt-get update && sudo apt-get install -y libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf-2.0-0 libffi-dev shared-mime-info
+      # - run: pip install "weasyprint<61" mkdocs-with-pdf
+      - run: mkdocs build --clean
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
