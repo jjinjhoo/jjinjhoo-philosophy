@@ -26,6 +26,7 @@ extra:
       link: /en/
       lang: en
 nav:
+  - Home: index.md
   - 한국어:
     - 서문: ko/01_prologue.md
     - 1부: 
