@@ -1,5 +1,5 @@
 site_name: 生死眞主 철학 – jjinjhoo philosophy
-site_url: https://<username>.github.io/jjinjhoo-philosophy
+site_url: https://jjinjhoo.github.io/jjinjhoo-philosophy
 docs_dir: content
 theme:
   name: material
