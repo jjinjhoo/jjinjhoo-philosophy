@@ -1,0 +1,50 @@
+site_name: 生死眞主 철학 – jjinjhoo philosophy
+site_url: https://<username>.github.io/jjinjhoo-philosophy
+docs_dir: content
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.footer
+    - content.code.copy
+    - search.suggest
+  palette:
+    - scheme: default
+plugins:
+  - search
+  #- mkdocs-with-pdf:
+  #    output_path: pdf/jjinjhoo-philosophy.pdf
+extra:
+  version:
+    current: "v1.0.0 (2025-08-18)"
+  alternate:
+    - name: 한국어
+      link: /ko/
+      lang: ko
+    - name: English
+      link: /en/
+      lang: en
+nav:
+  - 한국어:
+    - 서문: ko/01_prologue.md
+    - 1부: 
+      - 1장 생사진주란 무엇인가: ko/11_what_is_ssjj.md
+      - 2장 길 위의 인간: ko/12_human_on_path.md
+    - 2부:
+      - 깨어남: ko/21_awakening.md
+      - 더 깊은 깨어남(템플릿): ko/22_deeper_awaken.md
+    - 3부:
+      - 선택과 실행(템플릿): ko/31_choice_action.md
+      - 실행의 힘(템플릿): ko/32_power_of_action.md
+    - 4부:
+      - 돈=에너지: ko/41_money_energy.md
+      - 풍요의 흐름(템플릿): ko/42_flow_of_abundance.md
+    - 5부:
+      - 나눔과 순환(템플릿): ko/51_sharing_circulation.md
+      - 공동체적 주체성(템플릿): ko/52_community_subject.md
+    - 결론: ko/91_conclusion.md
+    - 부록: ko/92_appendix.md
+  - English:
+    - Prologue: en/01_prologue.md
+    - Ch.1 What is SaengSaJinJu: en/11_what_is_ssjj.md
