@@ -6,11 +6,21 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - navigation.footer
+    - navigation.footer 
     - content.code.copy
-    - search.suggest
-  palette:
-    - scheme: default
+    - content.tabs.link
+markdown_extensions:
+  - attr_list
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.mark
+extra_css:
+  - styles/extra.css   # 선택: 캡션 정렬/영상 반응형 등
 plugins:
   - search
   #- mkdocs-with-pdf:
@@ -28,7 +38,7 @@ extra:
 nav:
   - Home: index.md
   - 한국어:
-    - 서문: ko/01_prologue.md
+    - 머리말: ko/01_prologue.md
     - 1부 주인의 길 ― 생사진주의 근본: 
       - 1장 생사진주란 무엇인가: ko/11_what_is_ssjj.md
       - 2장 길 위의 인간: ko/12_human_on_path.md
@@ -38,7 +48,7 @@ nav:
       - 5장 하나의 전체: ko/22_oneness.md
       - 6장 길을 묻는 자에서 길을 여는자로: ko/23_road_opener.md
     - 3부 선택과 실행 ― 창조자의 법칙:
-      - 7장 인생공식 결과 = 선택 × 실행: ko/31_life_equation.md
+      - 7장 인생공식 (선택 × 실행 = 결과): ko/31_life_equation.md
       - 8장 실패와 성장: ko/32_growth.md
       - 9장 나의 길 : ko/33_my_way.md
     - 4부 돈과 풍요 ― 에너지의 흐름:
@@ -49,7 +59,7 @@ nav:
       - 13장 하나를 위해 한다: ko/51_act_for_one.md
       - 14장 나눔은 순환이다: ko/52_community_subject.md
       - 15장 동반자와 안내자: ko/53_partners.md
-    - 결론: ko/91_conclusion.md
+    - 맺음말: ko/91_conclusion.md
     - 부록: ko/92_appendix.md
   - English:
     - Prologue: en/01_prologue.md
