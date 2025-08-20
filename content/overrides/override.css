@@ -1,0 +1,19 @@
+/* 무료 Material에서 하단 크레딧 숨기기 */
+.md-footer-meta {
+    display: none !important;
+}
+
+/* 상단 메뉴 배경색 변경 */
+.md-header {
+    background-color: #fb9d5f !important;  /* 원하는 색상 코드로 변경 */
+    color: #000000 !important;  /* 텍스트 색상 */
+}
+.md-tabs {
+    background-color: #fb9d5f !important;  /* 원하는 색상 코드로 변경 */
+    color: #000000 !important;  /* 텍스트 색상 */
+}
+.md-footer {
+    background-color: #fb9d5f !important;  /* 원하는 색상 코드로 변경 */
+    color: #000000 !important;  /* 텍스트 색상 */
+}
+

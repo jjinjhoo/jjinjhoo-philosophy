@@ -3,12 +3,15 @@ site_url: https://jjinjhoo.github.io/jjinjhoo-philosophy
 docs_dir: content
 theme:
   name: material
+  copyright: "JjinJhoo"
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.footer 
     - content.code.copy
     - content.tabs.link
+  extra:
+    footer: ""
 markdown_extensions:
   - attr_list
   - footnotes
@@ -20,7 +23,8 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.mark
 extra_css:
-  - styles/extra.css   # 선택: 캡션 정렬/영상 반응형 등
+  #- styles/extra.css   # 선택: 캡션 정렬/영상 반응형 등
+  - overrides/override.css
 plugins:
   - search
   #- mkdocs-with-pdf:
